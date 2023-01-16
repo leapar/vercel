@@ -1,0 +1,1 @@
+(this["webpackJsonpreact-temp"]=this["webpackJsonpreact-temp"]||[]).push([[16],{94:function(t,e,i){"use strict";i.r(e);var a,c,n=i(50),r=i(11),s=i(51),p=(i(92),i(2)),u=(a=function t(){Object(r.a)(this,t),Object(n.a)(this,"title",c,this)},c=Object(s.a)(a.prototype,"title",[p.m],{configurable:!0,enumerable:!0,writable:!0,initializer:function(){return"这里移动端"}}),a);e.default=u}}]);

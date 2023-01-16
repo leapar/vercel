@@ -1,0 +1,37 @@
+div.pc-page-main {
+  height: 100%;
+  width: 100%;
+}
+div.pc-page-main div.pc-page-main-content {
+  height: calc(100% - 100px);
+  position: relative;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn {
+  z-index: 2000;
+  display: none;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn svg {
+  width: 41px;
+  height: 41px;
+  color: #666;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn.prev {
+  left: 0;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn.next {
+  right: 0;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn.disabled svg {
+  cursor: not-allowed;
+  color: #999999;
+}
+div.pc-page-main div.pc-page-main-content div.pagebtn:hover:not(.disabled) svg {
+  color: #333;
+}
+div.pc-page-main div.pc-page-main-content:hover div.pagebtn {
+  display: block;
+}
+div.pc-page-main div.pc-page-main-bottom {
+  position: relative;
+}
+

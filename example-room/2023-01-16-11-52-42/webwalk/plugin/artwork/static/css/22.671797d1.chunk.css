@@ -1,0 +1,11 @@
+div.m-material-detail-descript-wrap {
+  padding: 0.24rem 0.2rem 0;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+}
+div.m-material-detail-descript-wrap div.m-detail-descript {
+  color: #fff;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
