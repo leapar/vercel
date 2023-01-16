@@ -1,0 +1,77 @@
+div.m-page-horizontal-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div.m-page-horizontal-main div.m-detail-btn-wrap {
+  margin-bottom: 0.1rem;
+}
+div.m-page-horizontal-main div.m-page-main-content {
+  flex: 1 1;
+  overflow: hidden;
+}
+div.m-page-horizontal-main div.m-page-main-bottom {
+  position: relative;
+  height: 0.6rem;
+  min-height: 0.6rem;
+  overflow: hidden;
+}
+div.m-page-horizontal-main div.m-page-main-bottom .com-open-link {
+  top: 0;
+}
+div.m-page-horizontal-main div.m-page-main-bottom .com-open-link button {
+  height: 0.58rem;
+}
+div.m-page-horizontal-main div.pagebtn {
+  z-index: 2000;
+  width: 1rem;
+  text-align: center;
+}
+div.m-page-horizontal-main div.pagebtn svg {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+div.m-page-horizontal-main div.pagebtn.prev {
+  left: 0;
+}
+div.m-page-horizontal-main div.pagebtn.next {
+  right: 0;
+}
+div.m-page-horizontal-main div.pagebtn.disabled svg {
+  cursor: not-allowed;
+  color: #999999;
+}
+div.m-page-horizontal-main div.m-page-main-header {
+  line-height: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+}
+div.m-page-horizontal-main div.m-page-item {
+  height: 100%;
+}
+div.m-page-horizontal-main div.m-page-item.m-page-column {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+}
+div.m-page-horizontal-main div.m-page-item.m-page-column div.picImage {
+  overflow: hidden;
+}
+div.m-page-horizontal-main div.m-page-item.m-page-column div.m-material-detail-box {
+  flex: 1 1;
+  min-height: 60vh;
+}
+div.m-page-horizontal-main div.m-page-item.m-page-column div.m-material-detail-descript-wrap {
+  width: 100%;
+  flex: 1 1;
+  overflow: hidden;
+  padding: 0 0.2rem;
+}
+div.m-page-horizontal-main div.m-page-item.m-page-column div.m-material-detail-descript-wrap div.m-detail-descript {
+  height: 100%;
+}
+

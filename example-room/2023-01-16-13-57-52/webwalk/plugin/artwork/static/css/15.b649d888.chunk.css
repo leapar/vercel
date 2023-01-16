@@ -1,0 +1,86 @@
+div.pc-page-vertical-main {
+  height: 100%;
+  width: 100%;
+}
+div.pc-page-vertical-main div.page-page-main-header {
+  height: 90px;
+  line-height: 90px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 0 50px;
+}
+div.pc-page-vertical-main div.pc-page-main-content {
+  height: calc(100% - 90px);
+  position: relative;
+  margin-bottom: 20px;
+}
+div.pc-page-vertical-main div.pc-page-main-content div.page-main-item div.VideoPlay video {
+  width: 100%;
+}
+div.pc-page-vertical-main div.pc-page-main-content div.page-main-item div.link {
+  position: relative;
+  height: 50px;
+}
+div.pc-page-vertical-main div.pc-page-main-bottom {
+  position: relative;
+}
+div.pc-page-vertical-main div.pc-page-item {
+  width: 100%;
+  position: relative;
+}
+div.pc-page-vertical-main div.pc-page-item div.pc-detail-btn-wrap {
+  margin-bottom: 68px;
+}
+div.pc-page-vertical-main div.pc-page-item div.picImage {
+  display: flex;
+  justify-content: center;
+}
+div.pc-page-vertical-main div.pc-page-item div.picImage img {
+  max-width: 100%;
+  max-height: 100%;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-column {
+  display: flex;
+  flex-direction: column;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-column div.pc-material-detail-box {
+  flex: 1 1;
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-column div.pc-detail-descript {
+  margin-bottom: 20px;
+  overflow: visible;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-row {
+  overflow: hidden;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-row div.pc-material-detail-box {
+  width: 50%;
+  height: 100%;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-row div.pc-detail-descript {
+  flex: 1 1;
+  margin-bottom: 32px;
+  padding-left: 30px;
+  height: 100%;
+}
+div.pc-page-vertical-main div.pc-page-item.pc-page-row div.pc-material-detail-descript-wrap {
+  position: absolute;
+  top: 20px;
+  bottom: 50px;
+  right: 50px;
+  left: 50%;
+}
+
+div.pc-page-simple {
+  padding: 50px;
+  min-height: 100%;
+  background: #fff;
+}
+div.pc-page-simple img {
+  max-width: 100%;
+}
+

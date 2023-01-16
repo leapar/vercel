@@ -1,0 +1,193 @@
+div.m-page-vertical-main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div.m-page-vertical-main div.m-detail-btn-wrap {
+  margin-bottom: 0.1rem;
+}
+div.m-page-vertical-main div.m-page-main-content {
+  flex: 1 1;
+}
+div.m-page-vertical-main div.link {
+  height: 0.2rem;
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+div.m-page-vertical-main div.link .com-open-link {
+  top: 0;
+}
+div.m-page-vertical-main div.link .com-open-link button {
+  height: 0.2rem;
+}
+div.m-page-vertical-main div.m-page-main-header {
+  line-height: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.3rem;
+  color: #fff;
+}
+div.m-page-vertical-main div.m-page-item {
+  padding: 0 0.2rem 1rem;
+  position: relative;
+}
+div.m-page-vertical-main div.m-page-item.m-page-column div.picImage {
+  overflow: hidden;
+}
+div.m-page-vertical-main div.m-page-item.m-page-column div.picImage img {
+  width: 100%;
+}
+div.m-page-vertical-main div.m-page-item.m-page-column div.m-material-detail-box {
+  flex: 1 1;
+  min-height: 3rem;
+  margin-bottom: 0.2rem;
+}
+div.m-page-vertical-main div.m-page-item.m-page-column div.m-material-detail-descript-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+div.picImage {
+  position: relative;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+}
+div.picImage .viewer-hide {
+  display: none;
+}
+div.picImage .viewer-canvas {
+  width: 100%;
+  height: 100%;
+}
+div.picImage.isMobile img.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div.picImage.hasOne img.bg {
+  visibility: hidden;
+}
+div.picImage .scaleBig {
+  left: 0.2rem;
+  top: 0.2rem;
+  position: absolute;
+  cursor: pointer;
+}
+div.picImage .scaleBig svg {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+.svg-class {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+div.VideoPlay {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.VideoPlay div.wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+div.VideoPlay div.wrap canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+div.VideoPlay div.wrap video {
+  display: block;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+div.VideoPlay div.wrap video::-webkit-media-controls {
+  /*不显示时间条*/
+  object-fit: fill;
+  /*设置预览图铺满*/
+  display: none !important;
+}
+div.VideoPlay div.wrap img.poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+div.VideoPlay div.wrap .masker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  cursor: pointer;
+}
+div.VideoPlay div.wrap .masker .circle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+div.VideoPlay div.wrap .masker .circle img {
+  width: 100%;
+  height: 100%;
+}
+div.VideoPlay div.video-hidden {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+div.m-material-detail-descript-wrap {
+  padding: 0.24rem 0.2rem 0;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+}
+div.m-material-detail-descript-wrap div.m-detail-descript {
+  color: #fff;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+ul.m-detail-btn-wrap {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.2rem 0;
+}
+ul.m-detail-btn-wrap li {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.3rem;
+}
+ul.m-detail-btn-wrap li svg {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+

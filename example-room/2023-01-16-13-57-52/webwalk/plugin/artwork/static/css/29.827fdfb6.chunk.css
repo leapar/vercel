@@ -1,0 +1,90 @@
+div.pc-page-horizontal-main {
+  height: 100%;
+  width: 100%;
+}
+div.pc-page-horizontal-main div.page-page-main-header {
+  height: 90px;
+  line-height: 90px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 0 50px;
+}
+div.pc-page-horizontal-main div.pc-page-main-content {
+  height: calc(100% - 90px);
+  position: relative;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn {
+  z-index: 2000;
+  display: none;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn svg {
+  width: 41px;
+  height: 41px;
+  color: #666;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn.prev {
+  left: 0;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn.next {
+  right: 0;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn.disabled svg {
+  cursor: not-allowed;
+  color: #999999;
+}
+div.pc-page-horizontal-main div.pc-page-main-content div.pagebtn:hover:not(.disabled) svg {
+  color: #333;
+}
+div.pc-page-horizontal-main div.pc-page-main-content:hover div.pagebtn {
+  display: block;
+}
+div.pc-page-horizontal-main div.pc-page-main-content.hideName {
+  height: 100%;
+}
+div.pc-page-horizontal-main div.pc-page-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+div.pc-page-horizontal-main div.pc-page-item div.pc-detail-btn-wrap {
+  margin-bottom: 68px;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-column {
+  display: flex;
+  flex-direction: column;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-column div.pc-material-detail-box {
+  flex: 1 1;
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-column div.pc-detail-descript {
+  margin-bottom: 20px;
+  max-height: 200px;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-row {
+  overflow: hidden;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-row div.pc-material-detail-box {
+  width: 50%;
+  height: 100%;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-row div.pc-detail-descript {
+  flex: 1 1;
+  margin-bottom: 32px;
+  padding-left: 30px;
+  height: 100%;
+}
+div.pc-page-horizontal-main div.pc-page-item.pc-page-row div.pc-material-detail-descript-wrap {
+  position: absolute;
+  top: 0px;
+  bottom: 50px;
+  right: 50px;
+  left: 50%;
+}
+div.pc-page-horizontal-main div.pc-page-main-content.hideName div.pc-page-item.pc-page-column div.pc-material-detail-box {
+  margin-bottom: 0;
+}
+

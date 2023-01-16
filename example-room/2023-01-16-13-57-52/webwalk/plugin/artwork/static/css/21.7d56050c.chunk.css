@@ -1,0 +1,17 @@
+ul.m-detail-btn-wrap {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.2rem 0;
+}
+ul.m-detail-btn-wrap li {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0.3rem;
+}
+ul.m-detail-btn-wrap li svg {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
